@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(''); */
+}
+body{
+    min-height: 1000px;
+    background: linear-gradient(rgb(231, 1, 1));
+     background-color: rgb(234, 224, 224); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.calculator{
+   margin-top: 20vh;
+    width:  300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px rgba(red, green, blue, alpha);
+    border-radius: 10px;
+    background-color: rgb(53, 43, 43);
+    overflow: hidden;
+}
+form input{
+    width: 300px;
+    height: 150px;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color:black;
+    background-color: white;
+    text-align: center;
+    border-color: black;
+
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:20px ;
+    justify-content: space-between;
+    
+    
+
+}
+
+button{
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px blueviolet;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor:pointer
+
+}
+.btn-yellow{
+    background-color: tomato;
+    
+
+}
+.btn-orange{
+    background-color: rgb(248, 248, 248)
+
+
+
+
+}
+.btn-equal{
+   background-color: green;
+}
+
+
+.btn-clear{
+    background-color: rgb(243, 21, 21);
+}
+.btn-multiplication{
+    background-color: orange;
+}
+.btn-addition{
+    background-color: orange;
+}
+.btn-substraction{
+    background-color: orange;
+}
+.btn-division{
+    background-color: orange;
+}
